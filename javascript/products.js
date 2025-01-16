@@ -1,5 +1,5 @@
 const app = document.querySelector('#products');
-fetch("./data.json")
+fetch("")
   .then(response => response.json())
   .then(data => {
     // convert the data to html template
