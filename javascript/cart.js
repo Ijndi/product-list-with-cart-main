@@ -214,7 +214,7 @@ function hideModal(event) {
 }
 
 async function renderCartButtons() {
-    var cartArray = await fetch("")
+    var cartArray = await fetch("data.json")
     .then(response => response.json())
     .then(data => { 
         return data
